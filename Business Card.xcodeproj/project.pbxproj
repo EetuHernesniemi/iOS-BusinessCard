@@ -15,6 +15,7 @@
 		3CC8F30327ECBB9200F37536 /* Business_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8F30227ECBB9200F37536 /* Business_CardUITests.swift */; };
 		3CC8F30527ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8F30427ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift */; };
 		3CC8F31327EDAE9100F37536 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC8F31227EDAE9100F37536 /* Pacifico-Regular.ttf */; };
+		3CC8F31827EDDD4F00F37536 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8F31727EDDD4F00F37536 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3CC8F30427ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3CC8F31227EDAE9100F37536 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		3CC8F31627EDB61A00F37536 /* Business-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Business-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3CC8F31727EDDD4F00F37536 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				3CC8F31127EDAE7300F37536 /* fonts */,
 				3CC8F2E727ECBB9000F37536 /* Business_CardApp.swift */,
 				3CC8F2E927ECBB9000F37536 /* ContentView.swift */,
+				3CC8F31727EDDD4F00F37536 /* InfoView.swift */,
 				3CC8F2EB27ECBB9200F37536 /* Assets.xcassets */,
 				3CC8F2ED27ECBB9200F37536 /* Preview Content */,
 			);
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CC8F2EA27ECBB9000F37536 /* ContentView.swift in Sources */,
+				3CC8F31827EDDD4F00F37536 /* InfoView.swift in Sources */,
 				3CC8F2E827ECBB9000F37536 /* Business_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
