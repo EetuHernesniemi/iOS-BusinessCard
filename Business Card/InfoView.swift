@@ -25,7 +25,9 @@ struct InfoView: View {
 
                 Text(text)
                     .foregroundColor(.black)//fake number from fakenumber.org
-                    .frame(width: 260, height: 50.0, alignment: .leading)
+                    .frame(width: 240, height: 50.0, alignment: .leading)
+                Spacer()
+                    .frame(width: 20, height: 50)
             })
             .padding(.all)
     }
