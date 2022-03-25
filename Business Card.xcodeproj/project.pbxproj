@@ -14,6 +14,7 @@
 		3CC8F2F927ECBB9200F37536 /* Business_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8F2F827ECBB9200F37536 /* Business_CardTests.swift */; };
 		3CC8F30327ECBB9200F37536 /* Business_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8F30227ECBB9200F37536 /* Business_CardUITests.swift */; };
 		3CC8F30527ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC8F30427ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift */; };
+		3CC8F31327EDAE9100F37536 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC8F31227EDAE9100F37536 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		3CC8F2FE27ECBB9200F37536 /* Business CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC8F30227ECBB9200F37536 /* Business_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardUITests.swift; sourceTree = "<group>"; };
 		3CC8F30427ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CC8F31227EDAE9100F37536 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3CC8F31627EDB61A00F37536 /* Business-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Business-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		3CC8F2E627ECBB9000F37536 /* Business Card */ = {
 			isa = PBXGroup;
 			children = (
+				3CC8F31627EDB61A00F37536 /* Business-Card-Info.plist */,
+				3CC8F31127EDAE7300F37536 /* fonts */,
 				3CC8F2E727ECBB9000F37536 /* Business_CardApp.swift */,
 				3CC8F2E927ECBB9000F37536 /* ContentView.swift */,
 				3CC8F2EB27ECBB9200F37536 /* Assets.xcassets */,
@@ -125,6 +130,14 @@
 				3CC8F30427ECBB9200F37536 /* Business_CardUITestsLaunchTests.swift */,
 			);
 			path = "Business CardUITests";
+			sourceTree = "<group>";
+		};
+		3CC8F31127EDAE7300F37536 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3CC8F31227EDAE9100F37536 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC8F31327EDAE9100F37536 /* Pacifico-Regular.ttf in Resources */,
 				3CC8F2EF27ECBB9200F37536 /* Preview Assets.xcassets in Resources */,
 				3CC8F2EC27ECBB9200F37536 /* Assets.xcassets in Resources */,
 			);
@@ -420,6 +434,7 @@
 				DEVELOPMENT_TEAM = SL67DKJLZ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Business-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +464,7 @@
 				DEVELOPMENT_TEAM = SL67DKJLZ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Business-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
