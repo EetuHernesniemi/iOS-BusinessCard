@@ -14,11 +14,18 @@ struct InfoView: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
             .fill(Color.white)
-            .frame(height: 50.0)
+            .frame(width: 300,height: 50.0)
             .foregroundColor(.white)
             .overlay(HStack {
-                Image(systemName: imageName).foregroundColor(.green)
-                Text(text).foregroundColor(.black)//fake number from fakenumber.org
+                Spacer()
+                    .frame(width: 20, height: 50)
+                Image(systemName: imageName)
+                    .foregroundColor(.green)
+                    .frame(width: 20, height: 50.0)
+
+                Text(text)
+                    .foregroundColor(.black)//fake number from fakenumber.org
+                    .frame(width: 260, height: 50.0, alignment: .leading)
             })
             .padding(.all)
     }
