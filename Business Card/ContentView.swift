@@ -32,7 +32,11 @@ struct ContentView: View {
                     .fill(Color.white)
                     .frame(height: 50.0)
                     .foregroundColor(.white)
-                    .overlay(Text("+358 40 000 4852").foregroundColor(.black)) //fake number from fakenumber.org
+                    .overlay(HStack {
+                        Image(systemName: "phone.fill").foregroundColor(.green)
+                        Text("+358 40 000 4852").foregroundColor(.black)//fake number from fakenumber.org
+                    })
+                
             }
             
         }
